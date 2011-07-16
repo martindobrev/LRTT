@@ -1,0 +1,61 @@
+/* 
+    Document   : style
+    Created on : Jul 13, 2011, 12:58:36 AM
+    Author     : martindobrev
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html { height: 100%}
+body { height: 100%; margin: 0px; padding: 0px;}
+#map_canvas {height: 100%;}
+#map_control {
+    font-family: Helvetica; font-size: 12px;
+    padding: 20px;
+    border: 1px solid #3366cc;
+    background-color: #FFFFFF;
+    border: 1px solid #3366CC;
+    height: 600px;
+    left: -335px;
+    padding: 20px;
+    top: 3px;
+    position: absolute;
+    width: 300px;
+    z-index: 10;
+}
+
+.settings_icon {
+    margin-right:-51px;
+    margin-top: -21px;
+    border-left: 0px;
+    background-color: #fff;
+    border-right: 1px solid #36c;
+    border-bottom: 1px solid #36c;
+    border-top: 1px solid #36c;
+    position: absolute;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/settings.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+}
+
+#route {
+    overflow: hidden;
+    display: block;
+}
+
+#list {
+    list-style-type: none;
+    margin: 0px 0px 0px -40px;
+}
+
+#list li {
+    padding-bottom: 5px;
+}
+
+.additional_info {
+    color: #3366cc;
+    margin-left: 30px;
+}
+
